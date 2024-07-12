@@ -1,0 +1,89 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Spide_Tech_App
+build_property.ProjectDir = C:\Informatics_pracs_2023\Spide_Tech_ App\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Informatics_pracs_2023/Spide_Tech_ App/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Spide_Tech_App.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Informatics_pracs_2023/Spide_Tech_ App/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Spide_Tech_App.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Informatics_pracs_2023/Spide_Tech_ App/Booking.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Spide_Tech_App.Booking.xaml
+build_metadata.AdditionalFiles.TargetPath = Booking.xaml
+build_metadata.AdditionalFiles.RelativePath = Booking.xaml
+
+[C:/Informatics_pracs_2023/Spide_Tech_ App/CarWash.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Spide_Tech_App.CarWash.xaml
+build_metadata.AdditionalFiles.TargetPath = CarWash.xaml
+build_metadata.AdditionalFiles.RelativePath = CarWash.xaml
+
+[C:/Informatics_pracs_2023/Spide_Tech_ App/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Spide_Tech_App.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Login.xaml
+
+[C:/Informatics_pracs_2023/Spide_Tech_ App/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Spide_Tech_App.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Informatics_pracs_2023/Spide_Tech_ App/Register.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Spide_Tech_App.Register.xaml
+build_metadata.AdditionalFiles.TargetPath = Register.xaml
+build_metadata.AdditionalFiles.RelativePath = Register.xaml
+
+[C:/Informatics_pracs_2023/Spide_Tech_ App/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Spide_Tech_App.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Informatics_pracs_2023/Spide_Tech_ App/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Spide_Tech_App.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Informatics_pracs_2023/Spide_Tech_ App/Tow Truck.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Spide_Tech_App.Tow Truck.xaml
+build_metadata.AdditionalFiles.TargetPath = Tow Truck.xaml
+build_metadata.AdditionalFiles.RelativePath = Tow Truck.xaml
+
+[C:/Informatics_pracs_2023/Spide_Tech_ App/Tyre Purchase.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Spide_Tech_App.Tyre Purchase.xaml
+build_metadata.AdditionalFiles.TargetPath = Tyre Purchase.xaml
+build_metadata.AdditionalFiles.RelativePath = Tyre Purchase.xaml
+
+[C:/Informatics_pracs_2023/Spide_Tech_ App/ViewBooking.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Spide_Tech_App.ViewBooking.xaml
+build_metadata.AdditionalFiles.TargetPath = ViewBooking.xaml
+build_metadata.AdditionalFiles.RelativePath = ViewBooking.xaml

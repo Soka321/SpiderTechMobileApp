@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Spide_Tech_App.ViewBooking"
+             Title="ViewBooking">
+    <VerticalStackLayout BackgroundColor="DimGray" HorizontalOptions="CenterAndExpand" Padding="30" Spacing="30">
+        <Label 
+            Text="Here's your Booking!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Frame Padding="30"  Background="MidnightBlue">
+            <Grid>
+                <Label 
+                x:Name="lblVin"
+    Text="Vin Number"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" />
+            <Label  x:Name=" lblNumber"
+    Text="Number Plate:"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" />
+            <Label 
+                x:Name="lblType"
+    Text="Vechile Type:"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" />
+            <Label x:Name="lblModel"
+    Text="Model"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" />
+            <Label x:Name="lblDate"
+    Text="Time and Date:"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" />
+                </Grid>
+            </Frame>
+            <Button Text="Adjust Booking"
+            BackgroundColor="Black"
+                TextColor="Yellow"
+                />
+        <Button Text="Next"
+ BackgroundColor="Black"
+     TextColor="Yellow"
+     />
+    </VerticalStackLayout>
+</ContentPage>

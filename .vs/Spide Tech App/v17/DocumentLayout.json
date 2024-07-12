@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Informatics_pracs_2023\\Spide_Tech_ App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66E60254-C1F9-4841-95F0-A0A19A04794D}|Spide Tech App.csproj|c:\\informatics_pracs_2023\\spide_tech_ app\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66E60254-C1F9-4841-95F0-A0A19A04794D}|Spide Tech App.csproj|solutionrelative:register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E60254-C1F9-4841-95F0-A0A19A04794D}|Spide Tech App.csproj|c:\\informatics_pracs_2023\\spide_tech_ app\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{66E60254-C1F9-4841-95F0-A0A19A04794D}|Spide Tech App.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E60254-C1F9-4841-95F0-A0A19A04794D}|Spide Tech App.csproj|c:\\informatics_pracs_2023\\spide_tech_ app\\booking.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{66E60254-C1F9-4841-95F0-A0A19A04794D}|Spide Tech App.csproj|solutionrelative:booking.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E60254-C1F9-4841-95F0-A0A19A04794D}|Spide Tech App.csproj|c:\\informatics_pracs_2023\\spide_tech_ app\\booking.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66E60254-C1F9-4841-95F0-A0A19A04794D}|Spide Tech App.csproj|solutionrelative:booking.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E60254-C1F9-4841-95F0-A0A19A04794D}|Spide Tech App.csproj|c:\\informatics_pracs_2023\\spide_tech_ app\\viewbooking.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{66E60254-C1F9-4841-95F0-A0A19A04794D}|Spide Tech App.csproj|solutionrelative:viewbooking.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E60254-C1F9-4841-95F0-A0A19A04794D}|Spide Tech App.csproj|c:\\informatics_pracs_2023\\spide_tech_ app\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66E60254-C1F9-4841-95F0-A0A19A04794D}|Spide Tech App.csproj|solutionrelative:login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E60254-C1F9-4841-95F0-A0A19A04794D}|Spide Tech App.csproj|c:\\informatics_pracs_2023\\spide_tech_ app\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66E60254-C1F9-4841-95F0-A0A19A04794D}|Spide Tech App.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E60254-C1F9-4841-95F0-A0A19A04794D}|Spide Tech App.csproj|c:\\informatics_pracs_2023\\spide_tech_ app\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{66E60254-C1F9-4841-95F0-A0A19A04794D}|Spide Tech App.csproj|solutionrelative:register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ViewBooking.xaml",
+              "DocumentMoniker": "C:\\Informatics_pracs_2023\\Spide_Tech_ App\\ViewBooking.xaml",
+              "RelativeDocumentMoniker": "ViewBooking.xaml",
+              "ToolTip": "C:\\Informatics_pracs_2023\\Spide_Tech_ App\\ViewBooking.xaml",
+              "RelativeToolTip": "ViewBooking.xaml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-11T19:17:27.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.xaml",
+              "DocumentMoniker": "C:\\Informatics_pracs_2023\\Spide_Tech_ App\\Register.xaml",
+              "RelativeDocumentMoniker": "Register.xaml",
+              "ToolTip": "C:\\Informatics_pracs_2023\\Spide_Tech_ App\\Register.xaml",
+              "RelativeToolTip": "Register.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-04T13:59:37.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Informatics_pracs_2023\\Spide_Tech_ App\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Informatics_pracs_2023\\Spide_Tech_ App\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAACkAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T20:40:56.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Booking.xaml",
+              "DocumentMoniker": "C:\\Informatics_pracs_2023\\Spide_Tech_ App\\Booking.xaml",
+              "RelativeDocumentMoniker": "Booking.xaml",
+              "ToolTip": "C:\\Informatics_pracs_2023\\Spide_Tech_ App\\Booking.xaml",
+              "RelativeToolTip": "Booking.xaml",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAADoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-04T14:01:58.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Informatics_pracs_2023\\Spide_Tech_ App\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Informatics_pracs_2023\\Spide_Tech_ App\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAAAHIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-13T20:43:52.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.xaml.cs",
+              "DocumentMoniker": "C:\\Informatics_pracs_2023\\Spide_Tech_ App\\Register.xaml.cs",
+              "RelativeDocumentMoniker": "Register.xaml.cs",
+              "ToolTip": "C:\\Informatics_pracs_2023\\Spide_Tech_ App\\Register.xaml.cs",
+              "RelativeToolTip": "Register.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowBEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T18:48:27.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Booking.xaml.cs",
+              "DocumentMoniker": "C:\\Informatics_pracs_2023\\Spide_Tech_ App\\Booking.xaml.cs",
+              "RelativeDocumentMoniker": "Booking.xaml.cs",
+              "ToolTip": "C:\\Informatics_pracs_2023\\Spide_Tech_ App\\Booking.xaml.cs",
+              "RelativeToolTip": "Booking.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T19:24:16.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Informatics_pracs_2023\\Spide_Tech_ App\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "Login.xaml.cs",
+              "ToolTip": "C:\\Informatics_pracs_2023\\Spide_Tech_ App\\Login.xaml.cs",
+              "RelativeToolTip": "Login.xaml.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T18:51:19.468Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

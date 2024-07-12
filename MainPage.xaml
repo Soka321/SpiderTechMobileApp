@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Spide_Tech_App.MainPage"
+              
+            >
+   
+    <ScrollView>
+
+
+        
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"  BackgroundColor="DimGray">
+
+           
+
+
+            <Label
+     Text="Welcome to Spider Tech"
+                TextColor="Black"
+                BackgroundColor="DimGray"
+     Style="{StaticResource Headline}"
+     SemanticProperties.HeadingLevel="Level1" />
+
+          
+
+<Image Source="spider_logo.jpeg" 
+       
+               HeightRequest="185" 
+Aspect="AspectFit"
+SemanticProperties.Description="Company's logo" />
+
+
+
+
+            <HorizontalStackLayout  BackgroundColor="DimGray" Padding="30,0"  HorizontalOptions="CenterAndExpand"
+Spacing="50">
+            <Button
+    x:Name="btnLogin"
+    Text="Login" 
+    TextColor="Yellow"
+    BackgroundColor="Black"
+    SemanticProperties.Hint="Allows user to login"
+    Clicked="LoginClicked"
+    HorizontalOptions="CenterAndExpand" />
+            <Button
+    x:Name="btnRegister"
+    Text="Register" 
+    TextColor="Yellow"
+    BackgroundColor="Black"
+    SemanticProperties.Hint="CAllows the user register "
+    Clicked="RegisterClicked"
+    HorizontalOptions="CenterAndExpand" />
+            </HorizontalStackLayout>
+
+            <Button
+    x:Name="BtnGuest"
+    Text="Guest" 
+    TextColor="Yellow"
+    BackgroundColor="Black"
+    SemanticProperties.Hint="Counts the number of times you click"
+                WidthRequest="300"
+    Clicked="GuestClicked"
+    HorizontalOptions="Fill" />
+
+            <Grid Padding="30" ColumnSpacing="30" RowSpacing="30" BackgroundColor="DimGrey" HorizontalOptions="CenterAndExpand">
+                <Grid.RowDefinitions >
+                <RowDefinition Height="Auto" 
+                               
+                               />
+
+                <RowDefinition Height="Auto" 
+               
+               />
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="400"/>
+                    <ColumnDefinition Width="400"/>
+
+                </Grid.ColumnDefinitions>
+                <ImageButton
+                    
+                    Grid.Row="0" Grid.Column="0"
+    Source="towtruckb.png"
+    Clicked="OnTowtruck"
+    />
+                <ImageButton
+                Grid.Row="0" Grid.Column="1"
+Source="servicea.png"
+Clicked="OnService"
+/>
+                <ImageButton
+                Grid.Row="1" Grid.Column="0"
+Source="carwasha.png"
+Clicked="OnCarwash"
+/>
+                <ImageButton
+                Grid.Row="1" Grid.Column="1"
+Source="tyrea.png"
+Clicked="OnTyre"
+/>
+            </Grid>
+
+            
+
+            <Label Text="Call Us" TextColor="Black" HorizontalOptions="Center"/>
+            <Button
+    x:Name="btnCall"
+    Text="Call" 
+    TextColor="Yellow"
+    BackgroundColor="Black"
+    SemanticProperties.Hint="Counts the number of times you click"
+    Clicked="OnContact"
+   HorizontalOptions="Center" />
+            </VerticalStackLayout>
+        </ScrollView>
+
+    </ContentPage>
+            
+
+          
+           
