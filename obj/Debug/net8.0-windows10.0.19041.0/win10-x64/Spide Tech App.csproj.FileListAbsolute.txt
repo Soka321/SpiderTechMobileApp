@@ -363,3 +363,10 @@ C:\Informatics_pracs_2023\Spide_Tech_ App\obj\Debug\net8.0-windows10.0.19041.0\w
 C:\Informatics_pracs_2023\Spide_Tech_ App\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\servicea.scale-100.png
 C:\Informatics_pracs_2023\Spide_Tech_ App\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\towtruckb.scale-100.png
 C:\Informatics_pracs_2023\Spide_Tech_ App\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tyrea.scale-100.png
+C:\Informatics_pracs_2023\Spide_Tech_ App\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Spide Tech App.sourcelink.json
+C:\Informatics_pracs_2023\Spide_Tech_ App\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu.scale-100.jpg
+C:\Informatics_pracs_2023\Spide_Tech_ App\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SQLite-net.dll
+C:\Informatics_pracs_2023\Spide_Tech_ App\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.batteries_v2.dll
+C:\Informatics_pracs_2023\Spide_Tech_ App\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.core.dll
+C:\Informatics_pracs_2023\Spide_Tech_ App\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Informatics_pracs_2023\Spide_Tech_ App\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll

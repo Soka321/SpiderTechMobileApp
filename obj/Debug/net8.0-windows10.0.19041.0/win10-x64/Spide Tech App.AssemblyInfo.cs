@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Spide Tech App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b5ddab72928ff0c399c11f0e647b32231ebd7d8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Spide Tech App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Spide Tech App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

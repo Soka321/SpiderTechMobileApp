@@ -1,4 +1,6 @@
-﻿namespace Spide_Tech_App
+﻿using Microsoft.Maui.ApplicationModel.Communication;
+
+namespace Spide_Tech_App
 {
     public partial class MainPage : ContentPage
     {
@@ -27,19 +29,23 @@
             Navigation.PushAsync(new CarWash());
         }
 
-        private void Onrofile(object sender, EventArgs e)
+        private void OnProfile(object sender, EventArgs e)
         {
            
         }
 
         private void OnAbout(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new CarWash());
+            Navigation.PushAsync(new About());
         }
 
         private async void OnContact(object sender, EventArgs e)
         {
             await DisplayAlert("Make a call", "Are you sure you want to place a call?", "Accept", "Cancel");
+			if(PhoneDialer.Default.IsSupported)
+			{
+				PhoneDialer.Default.Open("+27743104795");
+			}
         }
         private void OnTyre(object sender, EventArgs e)
         {

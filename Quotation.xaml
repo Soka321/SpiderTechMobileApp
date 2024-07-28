@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Spide_Tech_App.Quotation"
+             Title="Quotation">
+    <VerticalStackLayout BackgroundColor="DimGrey" Padding="30" Spacing="30">
+        <Label 
+            Text="Create Clients Quotation"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+			
+			<Entry
+        x:Name="id"
+Placeholder="Enter Id number of client" 
+        HorizontalOptions="Center" MaximumWidthRequest="300" MaximumHeightRequest="100"
+ />
+        <Entry
+        x:Name="part"
+Placeholder=" Car Part"
+        HorizontalOptions="Center"
+            MaximumWidthRequest="300" MaximumHeightRequest="100"
+ />
+        <Entry
+        x:Name="num"
+Placeholder="Enter the number of parts" 
+        HorizontalOptions="Center"
+            MaximumWidthRequest="300" MaximumHeightRequest="100"
+            
+ />
+        <Entry
+        x:Name="labour"
+Placeholder="Labour being done" 
+        HorizontalOptions="Center"
+            MaximumWidthRequest="300" MaximumHeightRequest="100"
+ />
+        <Entry
+            x:Name="date"
+    Placeholder="Quotation date" 
+            HorizontalOptions="Center"
+            MaximumWidthRequest="300" MaximumHeightRequest="100"
+     />
+       
+	  <Label 
+            x:Name="lblError"         
+            
+             HorizontalOptions="Center"
+            TextColor="Red"
+			/>
+        <HorizontalStackLayout Padding="30" Spacing="20" BackgroundColor="DimGray" HorizontalOptions="Center">
+            <Button
+            HorizontalOptions="Center"
+            BackgroundColor="Black"
+            TextColor="Yellow"
+            x:Name="btnQuot"
+                Clicked="QuotClicked"
+            VerticalOptions="Center"
+     Text="Create Quotation"/>
+        <Button x:Name="btnBack"
+                BackgroundColor="Black"
+                TextColor="Yellow"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="GoBack"
+
+ Text="Go back"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

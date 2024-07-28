@@ -9,22 +9,28 @@ public partial class Login : ContentPage
 
     private void OnLog(object sender, EventArgs e)
     {
+		//use an if statement for if registered then the others use else if
+		
         if(string.IsNullOrEmpty(email.Text))
         {
-            email.Placeholder = "Invalid email entry";
-            email.PlaceholderColor.Red.ToString();
+            lblError.Text = "Invalid email entry Or Password";
+            
         }
-        if (string.IsNullOrEmpty(Password.Text))
+       else if (string.IsNullOrEmpty(Password.Text))
         {
-            Password.Placeholder = "Invalid password entry";
-            Password.PlaceholderColor.Red.ToString();
+           lblError.Text = "Invalid email entry Or Password";
         }
-
+		
+		else{
         //Takes user to login page1 ;
-        Navigation.PushAsync(new MainPage());
+	
+	App.UserService.Login(email.Text,Password.Text);
+        //Navigation.PushAsync(new MainPage());
+		btnLog.Text="Log Out";
         //Allow user to save login info
         Preferences.Set("Would you like Spider tech to save your login info?", true);
         Preferences.Get( "login info", false);
+		}
     }
     private void GoBack(object sender, EventArgs e)
     {

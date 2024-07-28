@@ -13,6 +13,29 @@
             HorizontalOptions="CenterAndExpand"
             />
         <Image Source="carwash.jpg"  HorizontalOptions="CenterAndExpand"/>
-
+		
+		 <Picker
+            x:Name="wash"
+Text="type of service prefered?" 
+            HorizontalOptions="Center"
+ >
+ <Picker.ItemSource>
+ <x:Array Type="{x:Type x:String}">
+ <x:String> Regular Wash </x:String>
+ <x:String> Full Wassh </x:String>
+ <x:String> Rinse</x:String>
+ <x:String> Wash and Polish </x:String>
+ </x:Array>
+ 
+ </Picker.ItemSource>
+ 
+ </Picker>
+<Button x:Name="btnBackB"
+                BackgroundColor="Black"
+                
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+TextColor="Yellow"
+ Text="Go back"/>
     </VerticalStackLayout>
 </ContentPage>

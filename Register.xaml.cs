@@ -1,4 +1,5 @@
 using System.Text.RegularExpressions;
+using Microsoft.Maui.ApplicationModel.Communication;
 namespace Spide_Tech_App
 {
 
@@ -19,18 +20,15 @@ namespace Spide_Tech_App
 				{
 					if (string.IsNullOrEmpty(email.Text))
 					{
-						email.Placeholder = "Invalid entry,Please enter correct entry";
-						email.PlaceholderColor.Red.ToString();
+						lblError.Text = "Invalid entry Please make sure all entries are correct";
 					}
 					else if (string.IsNullOrEmpty(name.Text))
 					{
-						name.Placeholder = "Invalid entry,Please enter correct entry";
-						name.PlaceholderColor.Red.ToString();
+						lblError.Text = "Invalid entry Please make sure all entries are correct";
 					}
 					else if (string.IsNullOrEmpty(surname.Text))
 					{
-						surname.Placeholder = "Invalid entry,Please enter correct entry";
-						surname.PlaceholderColor.Red.ToString();
+						lblError.Text = "Invalid entry Please make sure all entries are correct";
 					}
 					//else if(string.IsNullOrEmpty(password1.Text))
 					//{
@@ -38,30 +36,47 @@ namespace Spide_Tech_App
 					//}
 					else if (string.IsNullOrEmpty(type.Text))
 					{
-						type.Placeholder = "Invalid entry,Please enter correct entry";
-						type.PlaceholderColor.Red.ToString();
+						lblError.Text = "Invalid entry Please make sure all entries are correct";
 					}
 					else if (string.IsNullOrEmpty(contact.Text))
 					{
-						contact.Placeholder = "Invalid entry,Please enter correct entry";
-						contact.PlaceholderColor.Red.ToString();
+						lblError.Text = "Invalid entry Please make sure all entries are correct";
 					}
-					email.Placeholder = "Invalid entry,Please enter correct entry";
-					email.PlaceholderColor.Red.ToString();
+					lblError.Text = "Invalid entry Please make sure all entries are correct";
+					
+					DisplayAlert("Email Error", "please make sure you enter the correct email","OK");
 
 				}
 				else
 				{
 					//Display box
+DisplayAlert("Registration success", "You have successfully registered, you may press proceed to login","Proceed");
 
-
+                    //Send user email notification
+					
+					if(Email.Default.IsComposeSupported)
+					{
+						string[] reciver = new[] { email.Text };
+						var message = new EmailMessage()
+						{
+							Subject = "",
+							Body = "Welcome to Spider Tech, you have successfully registered, we'll keep in touc. Enjoy the experience!!",
+							BodyFormat = EmailBodyFormat.PlainText,
+							To = new List<string>(reciver)
+						};	
+                      Email.Default.ComposeAsync(message);					   
+					}
 					//adds user to database
-					///conn.Insert(new User{Name=name.text, Surname=surname.text, Email=email.text,Password=password.text,Contact=contact.text, Type=type.text})
+					
+					
+					
+
+						App.UserService.Register(id.Text,name.Text,surname.Text,email.Text,password.Text,contact.Text,type.Text);
 					//Takes user to login page1 ;
 					Navigation.PushAsync(new Login());
 				}
 			}
-			catch (System.ArgumentNullException ex) { email.Placeholder = "Invaild entry, please provide proper email"; }
+			catch (RegexMatchTimeoutException ex) { lblError.Text = "Invalid entry Please make sure all entries are correct"; }
         }
         private void GoBack(object sender, EventArgs e)
         {

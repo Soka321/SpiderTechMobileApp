@@ -8,7 +8,7 @@
             Text="Here's your Booking!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-        <Frame Padding="30"  Background="MidnightBlue">
+        <Frame   Background="MidnightBlue"   MaximumWidthRequest="300" MaximumHeightRequest="100"  HorizontalOptions="CenterAndExpand" Padding="30" >
             <Grid>
                 <Label 
                 x:Name="lblVin"

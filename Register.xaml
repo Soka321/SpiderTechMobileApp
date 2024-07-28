@@ -19,7 +19,7 @@
 
         <Entry
         x:Name="id"
-Placeholder="Enter your Id" 
+Placeholder="Enter your Id number" 
         HorizontalOptions="Center" MaximumWidthRequest="300" MaximumHeightRequest="100"
  />
         <Entry
@@ -61,6 +61,12 @@ Placeholder="Enter your Prefered password"
             HorizontalOptions="Center"
             MaximumWidthRequest="300" MaximumHeightRequest="100"
      />
+	  <Label 
+            x:Name="lblError"         
+            
+             HorizontalOptions="Center"
+            TextColor="Red"
+			/>
         <HorizontalStackLayout Padding="30" Spacing="20" BackgroundColor="DimGray" HorizontalOptions="Center">
             <Button
             HorizontalOptions="Center"

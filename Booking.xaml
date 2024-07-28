@@ -14,6 +14,11 @@ Spacing="20">
  SemanticProperties.HeadingLevel="Level1" />
 
 
+   <Entry
+        x:Name="id"
+Placeholder="Please provide your personal ID number" 
+        HorizontalOptions="Center"
+ />
             <Entry
         x:Name="number"
 Placeholder="Vechile Number Plate" 
@@ -38,11 +43,22 @@ Placeholder="Vechile type"
     Placeholder="vechie model" 
             HorizontalOptions="Center"
      />
-            <Entry
+            <Picker
             x:Name="service"
-Placeholder="type of service prefered?" 
+Text="type of service prefered?" 
             HorizontalOptions="Center"
- />
+ >
+ <Picker.ItemSource>
+ <x:Array Type="{x:Type x:String}">
+ <x:String> Regular Service </x:String>
+ <x:String> Regular Service </x:String>
+ <x:String> Regular Service </x:String>
+ <x:String> Regular Service </x:String>
+ </x:Array>
+ 
+ </Picker.ItemSource>
+ 
+ </Picker>
             <Entry
         x:Name="date"
 Placeholder="date prefered for booking" 

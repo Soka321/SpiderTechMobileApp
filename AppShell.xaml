@@ -5,11 +5,51 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Spide_Tech_App"
     Shell.FlyoutBehavior="Disabled"
-    Title="Spide_Tech_App">
+    Title="Spide_Tech_App"
+    FlyoutIcon="menu.jpg">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+
+    <Shell.FlyoutHeader >
+        <Grid BackgroundColor="Black">
+            <Image Source="menu.jpg"/>
+        </Grid>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem Title="Start Up">
+        <ShellContent
+
+ContentTemplate="{DataTemplate local:StartPage}"
+        
+ />
+        </FlyoutItem>
+
+        <FlyoutItem Title="Home">
+        <ShellContent
+    
+    ContentTemplate="{DataTemplate local:MainPage}"
+            
+     />
+    </FlyoutItem>
+
+    <FlyoutItem Title="About Us">
+		<ShellContent
+        
+        ContentTemplate="{DataTemplate local:About}"
+         />
+		</FlyoutItem>
+		
+		<FlyoutItem Title="Your Profile">
+		<ShellContent
+        
+        ContentTemplate="{DataTemplate local:Profile}"
+         />
+		</FlyoutItem>
+		
+		<FlyoutItem Title="Contact Us">
+		<ShellContent
+        
+        ContentTemplate="{DataTemplate local:ContactUs}"
+         />
+		</FlyoutItem>
 
 </Shell>
