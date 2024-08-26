@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Shell.TabBarIsVisible="False"
+             x:Class="Spide_Tech_App.Register"
+             Title="Register">
+
+    <!--code for Registration page-->
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20" BackgroundColor="DimGray">
+        <Label 
+            Text="Register Below"          
+            
+             
+            TextColor="Black"
+            BackgroundColor="DimGray"
+ Style="{StaticResource Headline}"
+ SemanticProperties.HeadingLevel="Level1" />
+
+
+        <Entry
+        x:Name="id"
+Placeholder="Enter your Id number" 
+        HorizontalOptions="Center" MaximumWidthRequest="300" MaximumHeightRequest="100"
+ />
+        <Entry
+        x:Name="name"
+Placeholder="Enter your name" 
+        HorizontalOptions="Center"
+            MaximumWidthRequest="300" MaximumHeightRequest="100"
+ />
+        <Entry
+        x:Name="surname"
+Placeholder="Enter your surname" 
+        HorizontalOptions="Center"
+            MaximumWidthRequest="300" MaximumHeightRequest="100"
+            
+ />
+        <Entry
+        x:Name="contact"
+Placeholder="Enter your contact numbers" 
+        HorizontalOptions="Center"
+            MaximumWidthRequest="300" MaximumHeightRequest="100"
+ />
+        <Entry
+            x:Name="email"
+    Placeholder="Enter your email" 
+            HorizontalOptions="Center"
+            MaximumWidthRequest="300" MaximumHeightRequest="100"
+     />
+        <Entry
+            IsPassword="True"
+            x:Name="password1"
+Placeholder="Enter your Prefered password" 
+            HorizontalOptions="Center"
+            MaximumWidthRequest="300" MaximumHeightRequest="100"
+ />
+ 
+  <Entry
+            x:Name="type"
+    Placeholder="Enter User Type" 
+            HorizontalOptions="Center"
+            MaximumWidthRequest="300" MaximumHeightRequest="100"
+     />
+	  <Label 
+            x:Name="lblError"         
+            
+             HorizontalOptions="Center"
+            TextColor="Red"
+			/>
+        <HorizontalStackLayout Padding="30" Spacing="20" BackgroundColor="DimGray" HorizontalOptions="Center">
+            <Button
+            HorizontalOptions="Center"
+            BackgroundColor="Black"
+            TextColor="Yellow"
+            x:Name="btnReg"
+                Clicked="RegiClicked"
+            VerticalOptions="Center"
+     Text="Register"/>
+        <Button x:Name="btnBack"
+                BackgroundColor="Black"
+                TextColor="Yellow"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="GoBack"
+
+ Text="Go back"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ScrollView>
+</ContentPage>

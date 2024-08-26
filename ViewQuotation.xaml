@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Spide_Tech_App.ViewQuotation"
+             Title="ViewQuotation">
+    <VerticalStackLayout BackgroundColor="DimGray" HorizontalOptions="CenterAndExpand" Padding="30" Spacing="30">
+        <Label 
+            Text="Here's your Booking!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Frame   Background="MidnightBlue"   MaximumWidthRequest="600" MaximumHeightRequest="900"  HorizontalOptions="CenterAndExpand" Padding="30" >
+            <Grid MaximumWidthRequest="600" MaximumHeightRequest="900">
+                <Label 
+            x:Name="lblID"
+Text="Vin Number"
+VerticalOptions="Center" 
+HorizontalOptions="Center" />
+                <Label 
+                x:Name="lblVin"
+    Text="Vin Number"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" />
+                <Label  x:Name=" lblNumber"
+    Text="Number Plate:"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" />
+                <Label 
+                x:Name="lblType"
+    Text="Vechile Type:"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" />
+                <Label x:Name="lblModel"
+    Text="Model"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" />
+                <Label x:Name="lblDate"
+    Text="Time and Date:"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center" />
+            </Grid>
+        </Frame>
+        <Button Text="View Your Quotation"
+    BackgroundColor="Black"
+        TextColor="Yellow"
+                Clicked="OnView"
+        />
+
+
+        <Button Text="Accept Quotation"
+ BackgroundColor="Black"
+     TextColor="Yellow"
+                Clicked="OnNext"/>
+
+        <Button Text="Go Back"
+BackgroundColor="Black"
+    TextColor="Yellow"
+               Clicked="OnBack"
+     />
+    </VerticalStackLayout>
+</ContentPage>

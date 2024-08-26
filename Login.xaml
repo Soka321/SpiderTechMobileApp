@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Spide_Tech_App.Login"
+             Shell.TabBarIsVisible="False"
+             Title="Login">
+
+    <!--code for login page-->
+    <VerticalStackLayout Padding="30"  Spacing="20" BackgroundColor="DimGray">
+        <Label
+		Text="Login your account"
+		TextColor="Black"
+            BackgroundColor="DimGray"
+ Style="{StaticResource Headline}"
+ SemanticProperties.HeadingLevel="Level1" />
+
+        <Entry         x:Name="email"
+Placeholder="Enter your email" 
+        HorizontalOptions="Center">
+            
+        </Entry>
+       
+        <Entry
+            x:Name="Password"
+            IsPassword="True"
+            
+Placeholder="Enter your Password" 
+            HorizontalOptions="Center"
+ />
+ 
+           <Label 
+            x:Name="lblError"         
+            
+             HorizontalOptions="Center"
+            TextColor="Red"
+			/>
+        <Button
+            HorizontalOptions="Center"
+            BackgroundColor="Black"
+            TextColor="Yellow"
+            x:Name="btnLog"
+            Clicked="OnLog"
+            Text="Login"/>
+        
+        
+        <Button x:Name="btnBack"
+                BackgroundColor="Black"
+                HorizontalOptions="Center"
+                Clicked="GoBack"
+                TextColor="Yellow"
+                Text="Go back"/>
+    </VerticalStackLayout>
+
+</ContentPage>

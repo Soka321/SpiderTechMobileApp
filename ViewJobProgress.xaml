@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Spide_Tech_App.ViewJobProgress"
+             Title="ViewJobProgress">
+    <VerticalStackLayout
+         Padding="10,10,10,10"
+         Spacing="25"  BackgroundColor="DimGray"
+         Margin="10">
+
+        <Label
+             
+             Text="View your vechicles progress here"
+             TextColor="Black"
+             Style="{StaticResource Headline}"
+             SemanticProperties.HeadingLevel="Level1" />
+
+
+
+        <HorizontalStackLayout Padding="10,10"  HorizontalOptions="CenterAndExpand"
+             Spacing="50">
+            <Label x:Name="lblProgress" Text="" />
+
+
+
+
+
+            <Button
+     x:Name="btnInvoice"
+     Text="Get Your Invoice" 
+     TextColor="Yellow"
+     BackgroundColor="Black"
+     SemanticProperties.Hint="Allows the user get invoice "
+     Clicked="OnInvoice"
+     HorizontalOptions="CenterAndExpand" />
+
+            <Button
+                 x:Name="btnBack"
+                 Text="Go Back" 
+                 TextColor="Yellow"
+                 BackgroundColor="Black"
+                 SemanticProperties.Hint="Allows the user to go back "
+                 Clicked="BackClicked"
+                 HorizontalOptions="CenterAndExpand" />
+
+        </HorizontalStackLayout>
+
+
+
+
+
+
+
+
+
+    </VerticalStackLayout>
+</ContentPage>

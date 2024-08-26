@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Spide_Tech_App.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Spide_Tech_App"
+    
+    Shell.FlyoutBehavior="Flyout"
+    Title="Spide_Tech_App"
+    >
+
+
+   <Shell.FlyoutHeader >
+        <Grid BackgroundColor="Black">
+            <Image Source="menu.jpg"/>
+        </Grid>
+    </Shell.FlyoutHeader>
+
+ 
+        
+      
+    <TabBar>
+        <Tab Title="Log Out" Icon="spider_logo.jpeg">
+            <ShellContent
+     Title="Home" Icon="spider_logo.jpeg"
+    
+     ContentTemplate="{DataTemplate local:MainPage}"
+     
+      />
+        </Tab>
+        <Tab Title="Home" Icon="home.png">
+        <ShellContent
+            Title="Home" Icon="home.png"
+    
+            ContentTemplate="{DataTemplate local:Home}"
+            
+             />
+            </Tab>
+
+    <Tab Title="About Us" Icon="about.png">
+		<ShellContent
+        
+        ContentTemplate="{DataTemplate local:About}"
+         />
+		</Tab>
+
+        <Tab Title="Your Profile" Icon="profile.png">
+            <ShellContent
+        
+        ContentTemplate="{DataTemplate local:Profile}"
+         />
+        </Tab>
+    </TabBar>
+
+</Shell>

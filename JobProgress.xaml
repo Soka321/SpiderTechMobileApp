@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Spide_Tech_App.JobProgress"
+             Title="JobProgress">
+    <ScrollView>
+
+
+
+        <VerticalStackLayout
+         Padding="10,10,10,10"
+         Spacing="25"  BackgroundColor="DimGray"
+         Margin="10">
+
+            <Label
+             
+             Text="Update us about the Job"
+             TextColor="Black"
+             Style="{StaticResource Headline}"
+             SemanticProperties.HeadingLevel="Level1" />
+
+
+
+            <HorizontalStackLayout Padding="10,10"  HorizontalOptions="CenterAndExpand"
+             Spacing="50">
+                <Label x:Name="lblProgress" Text="" />
+
+                <Picker
+           x:Name="Progress"
+BackgroundColor="White"
+           HorizontalOptions="Center"
+>
+                    <Picker.ItemsSource >
+                        <x:Array Type="{x:Type x:String}" >
+                            <x:String>20% Done</x:String>
+                            <x:String>40% Done</x:String>
+                            <x:String>60% Done</x:String>
+                            <x:String>80% Done</x:String>
+                            <x:String>100% Done</x:String>
+                            
+                        </x:Array>
+
+                    </Picker.ItemsSource>
+
+                </Picker>
+                
+                
+
+                <Button
+                 x:Name="btnJob"
+                 Text=" View Job Progress" 
+                 TextColor="Yellow" 
+                 BackgroundColor="Black"
+                 SemanticProperties.Hint="Allows user to login"
+                 Clicked="ProgressClicked"
+                 HorizontalOptions="CenterAndExpand" />
+
+                <Button
+                 x:Name="btnBack"
+                 Text="Go Back" 
+                 TextColor="Yellow"
+                 BackgroundColor="Black"
+                 SemanticProperties.Hint="Allows the user register "
+                 Clicked="BackClicked"
+                 HorizontalOptions="CenterAndExpand" />
+
+            </HorizontalStackLayout>
+
+           
+
+            
+
+
+
+            
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+</ContentPage>

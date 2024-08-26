@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Spide_Tech_App.Booking"
+             Title="Booking">
+    <ScrollView>
+        <VerticalStackLayout Padding="30"  BackgroundColor="DimGray"   HorizontalOptions="CenterAndExpand"
+Spacing="20">
+        <Label 
+             Text="Book Here"
+            TextColor="Black"
+            BackgroundColor="DimGray"
+ Style="{StaticResource Headline}"
+ SemanticProperties.HeadingLevel="Level1" />
+
+
+   <Entry
+        x:Name="id"
+Placeholder="Please provide your personal ID number" 
+        HorizontalOptions="Center"
+ />
+            <Entry
+        x:Name="number"
+Placeholder="Vechile Number Plate" 
+        HorizontalOptions="Center"
+ />
+            <Entry
+        x:Name="vin"
+Placeholder="Vin number" 
+        HorizontalOptions="Center"
+            
+            
+ />
+            <Entry
+        x:Name="type"
+Placeholder="Vechile type" 
+        HorizontalOptions="Center"
+ />
+      
+
+            <Entry
+            x:Name="model"
+    Placeholder="vechie model" 
+            HorizontalOptions="Center"
+     />
+
+            <Entry
+        x:Name="service1"
+Placeholder="Vechile type" 
+        HorizontalOptions="Center"
+ />
+            <Picker
+            x:Name="service"
+
+            HorizontalOptions="Center"
+ >
+ <Picker.ItemsSource>
+ <x:Array Type="{x:Type x:String}">
+ <x:String> Regular Service </x:String>
+ <x:String> Car wash</x:String>
+ <x:String> Regular Service </x:String>
+ <x:String> Regular Service </x:String>
+ </x:Array>
+ 
+ </Picker.ItemsSource>
+ 
+ </Picker>
+            <Entry
+        x:Name="date"
+Placeholder="date prefered for booking" 
+        HorizontalOptions="Center"
+ />
+            <Label Text=""
+                   TextColor="Red"
+                   x:Name="lblError"/>
+
+            <HorizontalStackLayout Padding="30" Spacing="20" BackgroundColor="DimGrey" HorizontalOptions="Center">
+            
+            <Button
+            HorizontalOptions="Center"
+            BackgroundColor="Black"
+            TextColor="Yellow"
+            x:Name="btnBook"
+                Clicked="OnBooking"
+            VerticalOptions="Center"
+     Text="Confirm booking"/>
+            
+            <Button x:Name="btnBackB"
+                BackgroundColor="Black"
+                
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+TextColor="Yellow"
+ Text="Go back"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+        </ScrollView>
+</ContentPage>
